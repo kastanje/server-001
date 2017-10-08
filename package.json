@@ -1,0 +1,35 @@
+{
+  "name": "kastanje-server-001",
+  "version": "0.0.0",
+  "description": "a kastanje web server - text/html; utf-8",
+  "author": "dan entous",
+  "license": "MIT",
+  "main": "src",
+  "keywords": [
+    "http.Server",
+    "net.Server",
+    "tls.Server",
+    "kastanje server"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kastanje/server-001.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kastanje/server-001/issues"
+  },
+  "homepage": "https://github.com/kastanje/server-001#readme",
+  "dependencies": {
+    "http-server-event-request": "git+https://github.com/http-server-events/request.git",
+    "http-server-request-handler-data": "git+https://github.com/http-server-request-handlers/data.git",
+    "http-server-request-handler-file": "git+https://github.com/http-server-request-handlers/file.git",
+    "http-server-request-handler-location": "git+https://github.com/http-server-request-handlers/location.git",
+    "http-server-request-handler-response": "git+https://github.com/http-server-request-handlers/response.git",
+    "kastanje-server": "git+https://github.com/kastanje/server.git",
+    "net-server-event-close": "git+https://github.com/net-server-events/close.git",
+    "net-server-event-connection": "git+https://github.com/net-server-events/connection.git",
+    "net-server-event-error": "git+https://github.com/net-server-events/error.git",
+    "net-server-event-listening": "git+https://github.com/net-server-events/listening.git",
+    "net-server-method-use-001": "git+https://github.com/net-server-methods/use-001.git"
+  }
+}
